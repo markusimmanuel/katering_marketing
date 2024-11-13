@@ -7,7 +7,7 @@ use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\OrderController;
 
 // Route Home
-Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login')
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
 
 // Tambahkan autentikasi
 require __DIR__.'/auth.php';
