@@ -1,0 +1,134 @@
+/* Reset dasar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.user-info {
+    font-size: 18px;
+    color: #555;
+    margin-right: 15px;
+}
+
+.logout-form {
+    display: inline;
+}
+
+.btn-logout {
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+.btn-logout:hover {
+    background-color: #c82333;
+}
+
+/* Layout Utama */
+.dashboard-layout {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-nav {
+    list-style: none;
+}
+
+.sidebar-nav li {
+    margin-bottom: 10px;
+}
+
+.sidebar-link {
+    display: block;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-link:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* Konten Utama */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-container {
+    max-width: 600px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.welcome-container h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.welcome-container p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
